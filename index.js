@@ -2,9 +2,10 @@ const Beam = require('beam-client-node');
 const Interactive = require('beam-interactive-node');
 const rjs = require('robotjs');
 
-const channelId = 235212;
-const username = 'Jolinar';
-const password = 'BeamTrustno1@';
+const authInfo = require('./authInfo.js'),
+      channelId = authInfo.channelId,
+      username = authInfo.username,
+      password = authInfo.password;
 
 const beam = new Beam();
 
