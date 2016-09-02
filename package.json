@@ -1,0 +1,25 @@
+{
+  "name": "dashbeam",
+  "version": "1.0.0",
+  "description": "robot soccer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ltspringthorpe/DashBeam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ltspringthorpe/DashBeam/issues"
+  },
+  "homepage": "https://github.com/Ltspringthorpe/DashBeam#readme",
+  "dependencies": {
+    "beam-client-node": "^0.7.1",
+    "beam-interactive-node": "^0.3.2",
+    "robotjs": "^0.4.4"
+  }
+}
