@@ -46,7 +46,6 @@ function performRobotHandShake (robot) {
 function setupRobotEvents (robot) {
   robot.on('report', report => {
     const mouse = rjs.getMousePos();
-    console.log(report.screen);
     if (report.joystick.length > 0) {
       const mean = report.joystick[0].coordMean;
       if (!isNaN(mean.x) && !isNaN(mean.y)) {
